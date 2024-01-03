@@ -99,6 +99,15 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className="hover:text-brightColor transition-all cursor-pointer"
+                        >
+                            About
+                        </Link>
+                        <Link
                             to="menu"
                             spy={true}
                             smooth={true}
@@ -115,15 +124,6 @@ const Navbar = () => {
                             className="hover:text-brightColor transition-all cursor-pointer"
                         >
                             Reviews
-                        </Link>
-                        <Link
-                            to="contact"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className="hover:text-brightColor transition-all cursor-pointer"
-                        >
-                            Contact
                         </Link>
 
                         <Button title="Login"></Button>
@@ -159,6 +159,15 @@ const Navbar = () => {
                         Recipe
                     </Link>
                     <Link
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        className="hover:text-brightColor transition-all cursor-pointer"
+                    >
+                        About
+                    </Link>
+                    <Link
                         to="menu"
                         spy={true}
                         smooth={true}
@@ -175,15 +184,6 @@ const Navbar = () => {
                         className="hover:text-brightColor transition-all cursor-pointer"
                     >
                         Reviews
-                    </Link>
-                    <Link
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                        className="hover:text-brightColor transition-all cursor-pointer"
-                    >
-                        Contact
                     </Link>
 
                     <Button title="Login"></Button>

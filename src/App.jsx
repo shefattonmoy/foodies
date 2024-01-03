@@ -3,6 +3,8 @@ import Home from "./components/Home/Home";
 import Menu from "./components/Menu/Menu";
 import Navbar from "./components/Navbar/Navbar";
 import Recipe from "./components/Recipe/Recipe";
+import Review from "./components/Review/Review";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -25,6 +27,14 @@ const App = () => {
 
         <div id="menu">
           <Menu></Menu>
+        </div>
+
+        <div id="reviews">
+          <Review></Review>
+        </div>
+
+        <div id="footer">
+          <Footer></Footer>
         </div>
       </main>
     </div>

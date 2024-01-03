@@ -14,7 +14,7 @@ const Home = () => {
                     the boundaries of taste and texture,
                     promising a dining experience like no other.
                 </p>
-                <div className='lg:pl-44'>
+                <div>
                     <Button title="Order Now"></Button>
                 </div>
             </div>
