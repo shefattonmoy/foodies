@@ -6,7 +6,7 @@ const Home = () => {
         <div className="min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url('./assets/img/img1.jpg')] bg-cover bg-no-repeat">
             <div className='w-full lg:w-2/3 space-y-5'>
                 <h1 className='text-white font-semibold text-6xl'>Satisfy Your Cravings and Elevate Your Soul...</h1>
-                <p className='text-white'>
+                <p className='text-white text-lg'>
                     Delight in a symphony of tastes at our establishment,
                     where every dish is a carefully crafted masterpiece.
                     Our menu is a testament to the artistry of flavors,

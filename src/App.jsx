@@ -1,4 +1,6 @@
+import About from "./components/About/About";
 import Home from "./components/Home/Home";
+import Menu from "./components/Menu/Menu";
 import Navbar from "./components/Navbar/Navbar";
 import Recipe from "./components/Recipe/Recipe";
 
@@ -17,7 +19,13 @@ const App = () => {
           <Recipe></Recipe>
         </div>
 
-        
+        <div id="about">
+          <About></About>
+        </div>
+
+        <div id="menu">
+          <Menu></Menu>
+        </div>
       </main>
     </div>
   )
